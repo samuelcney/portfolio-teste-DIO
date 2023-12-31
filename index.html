@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="/assets/css/header.css"/>
+    <link rel="stylesheet" href="/assets/css/global.css"/>
+    <link rel="stylesheet" href="/assets/css/acordeon.css"/>
+    <link rel="stylesheet" href="/assets/css/language.css">
+    <link rel="stylesheet" href="/assets/css/portfolio.css">
+    <link rel="stylesheet" href="/assets/css/experience.css ">
+    <link rel="stylesheet" href="/assets/css/skills.css">
+
+    
+
+</head>
+<body>
+
+    <div class="main">
+        <header class="header">
+            
+            <img class="foto" src="./imagens/eu.jpg" alt="samuel">
+    
+            <h1 class="title">Olá, <br>eu sou o Samuel Costa Ney</h1>
+    
+            <ol class="infoHeader">
+                <li class="cargo">Estudante</li>
+                <li class="location">Paraná - BR</li>
+                <li class="phone">
+                    <a href="tel: (44) 9 9999-9999">(44) 9 9999-9999</a>
+                </li>
+                <li class="email">
+                    <a href="mailto: ex@gmail.com">ex@gmail.com</a>
+                </li>
+            </ol>
+
+        </header>
+
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                Skills
+            </button>        
+            
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Ferramentas:</h3>
+                        <ul>
+                            <li>
+                                <img src="/imagens/icons/database.svg" alt="database" title="Database">
+                            </li>
+
+                            <li>
+                                <img src="/imagens/icons/javascript.svg" alt="javascript" title="Javascript">
+                            </li>
+
+                            <li>
+                                <img src="/imagens/icons/html.svg" alt="html" title="Html">
+                            </li>
+
+                            <li>
+                                <img src="/imagens/icons/github.svg" alt="github" title="github">
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="personal">
+                        <h3>Pessoal:</h3>
+                        <ul>
+                        <li>Facilidade de comunicação</li>
+                        <li>Organização</li>
+                        <li>Trabalho em equipe</li>
+                        <li>Flexibilidade</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+        
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                Idiomas
+            </button>        
+            <div class="content">
+                <ul class="languages">
+                    <li>Português</li>
+                    <li>Inglês</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                Portfolio
+            </button>        
+            <div class="content">
+                <ul class="portfolio">
+                    <li>
+                        <span class="title github">Perfil GitHub</span>
+                        <a href="https://github.com/samuelcney" target="_blank">https://github.com/samuelcney</a>
+                    </li>
+                    <li>
+                        <span class="title github">js-developer-pokedex project</span>
+                        <a href="https://github.com/samuelcney/js-developer-pokedex" target="_blank">https://github.com/samuelcney/js-developer-pokedex</a>
+                    </li>
+                </ul> 
+            </div>
+        </section>
+
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                Experiência Profissional
+            </button>        
+            <div class="content">
+                <ul class="experience">
+                    <li>
+                        <h3 class="title">Front-end Developer / dio.me</h3>
+                        <p class="periodo">Dez 2023 - Current</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quaerat aliquam modi, quasi tempora ipsam. Sint officia neque sit itaque odio iste quia dignissimos sapiente? At nostrum expedita reprehenderit nihil.
+                        </p>
+                    </li>
+
+                    <li>
+                        <h3 class="title">Database Developer / dio.me</h3>
+                        <p class="periodo">Nov 2023 - Current</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quaerat aliquam modi, quasi tempora ipsam. Sint officia neque sit itaque odio iste quia dignissimos sapiente? At nostrum expedita reprehenderit nihil.
+                        </p>
+                    </li>
+                </ul> 
+            </div>
+        </section>
+
+        
+    </div>
+
+    <script src="/assets/js/acordeon.js"></script>
+</body>
+</html>
